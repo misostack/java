@@ -1,26 +1,28 @@
 # Java
 
-## Headfirst
-
-### Hello World
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
-```
+## Tools
 
 ### IDE
 
-- https://www.jetbrains.com/idea/guide/tutorials/hello-world/creating-a-package-and-class/
+- [VSCode](https://code.visualstudio.com/docs/java/java-tutorial)
+- [IntelliJ](- https://www.jetbrains.com/idea/guide/tutorials/hello-world/creating-a-package-and-class/)
 
-### Part 1 : Language Basic
+### Build
+
+#### Maven
+
+- [Maven](https://maven.apache.org/install.html)
+
+```bash
+mvn package -f "c:\workplace\misostack\java\headfirst\pom.xml"
+java -cp headfirst/target/headfirst-1.0-SNAPSHOT.jar net.javacore.App
+```
+
+# Part 1 : Language Basic
 
 - [Language Basic](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 
-#### Includes
+## Includes
 
 1. [ ] Datatype && Operators
 2. [ ] Control Flow Statement
